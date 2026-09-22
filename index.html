@@ -107,7 +107,7 @@
   <!-- ============ HERO (VÍDEO) ============ -->
   <section class="hero" aria-label="Abertura">
     <div class="hero__media">
-      <video class="hero__video" autoplay loop muted playsinline preload="auto" poster="assets/img/hero-poster.svg" aria-hidden="true">
+      <video class="hero__video" autoplay loop muted playsinline webkit-playsinline="true" preload="auto" poster="assets/img/hero-poster.svg" aria-hidden="true">
         <source src="assets/video/hero.mp4" type="video/mp4">
       </video>
       <div class="hero__scrim"></div>
@@ -189,7 +189,7 @@
 
   <!-- divisor: crescimento das edições -->
   <div class="growth-strip">
-    <span class="growth-strip__item"><strong>1ª Edição</strong> mil pessoas</span>
+    <span class="growth-strip__item"><strong>1ª Edição</strong> 1.000 pessoas</span>
     <span class="growth-strip__dot" aria-hidden="true">•</span>
     <span class="growth-strip__item"><strong>2ª Edição</strong> 2.300 pessoas</span>
     <span class="growth-strip__dot" aria-hidden="true">•</span>
@@ -210,7 +210,7 @@
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2s2-.9 2-2V2M5 11v11M19 2c-1.5 0-3 2-3 5v4c0 1 1 2 2 2h1v9"></path></svg>
         </div>
         <h3>Comida Brasileira</h3>
-        <p>Coxinha, caipirinha, churrasco e muito mais de raiz — o cheirinho de casa em Paris.</p>
+        <p>Coxinha, caipirinha, churrasco e muito mais para você matar a saudade de casa.</p>
       </article>
 
       <article class="attraction-card">
@@ -256,13 +256,7 @@
   </section>
 
   <!-- bandeirinha divider -->
-  <div class="bunting-divider" aria-hidden="true">
-    <div class="bunting-divider__row">
-      <span class="bunting bunting--green"></span><span class="bunting bunting--yellow"></span><span class="bunting bunting--blue"></span><span class="bunting bunting--bluefr"></span><span class="bunting bunting--white"></span><span class="bunting bunting--redfr"></span>
-      <span class="bunting bunting--green"></span><span class="bunting bunting--yellow"></span><span class="bunting bunting--blue"></span><span class="bunting bunting--bluefr"></span><span class="bunting bunting--white"></span><span class="bunting bunting--redfr"></span>
-      <span class="bunting bunting--green"></span><span class="bunting bunting--yellow"></span><span class="bunting bunting--blue"></span><span class="bunting bunting--bluefr"></span><span class="bunting bunting--white"></span><span class="bunting bunting--redfr"></span>
-    </div>
-  </div>
+  <div class="flag-divider" aria-hidden="true">🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷 🇧🇷</div>
 
   <!-- ============ IDEALIZADOR ============ -->
   <section class="founder" id="idealizador" aria-label="Idealizador do evento">
@@ -272,9 +266,9 @@
     </div>
 
     <div class="founder__card">
-      <img class="founder__photo" src="assets/logos/logo-com-giovani.png" alt="Giovani, idealizador do Social do Imigrante" loading="lazy">
+      <img class="founder__photo" src="assets/logos/logo-com-giovani.png" alt="Giovani Lavorato, idealizador do Social do Imigrante" loading="lazy">
       <div class="founder__info">
-        <h3 class="display">Giovani</h3>
+        <h3 class="display">Giovani Lavorato</h3>
         <span class="tag tag--gradient">@imigrantenafranca</span>
         <p>O criador do Social do Imigrante — brasileiro que também vive a saudade de casa em Paris e decidiu criar um espaço pra comunidade se encontrar, comer bem e lembrar do Brasil.</p>
         <a class="founder__ig" href="https://www.instagram.com/imigrantenafranca/" target="_blank" rel="noopener noreferrer">
@@ -294,7 +288,7 @@
 
     <div class="lineup__featured">
       <div class="lineup__featured-avatar">
-        <span class="display">PS</span>
+        <img src="assets/logos/paris-samba-group.png" alt="Paris Samba Group" loading="lazy">
       </div>
       <div class="lineup__featured-info">
         <span class="tag tag--gradient">Atração Principal</span>
@@ -306,12 +300,12 @@
 
     <div class="lineup__grid">
       <article class="lineup-card">
-        <div class="lineup-card__avatar"><span class="display">EF</span></div>
+        <div class="lineup-card__avatar"><img src="assets/logos/eurotrip.png" alt="Eurotrip Family" loading="lazy"></div>
         <h4>Eurotrip Family</h4>
         <span class="lineup__time">Horário a confirmar</span>
       </article>
       <article class="lineup-card">
-        <div class="lineup-card__avatar"><span class="display">AL</span></div>
+        <div class="lineup-card__avatar"><img src="assets/logos/atividade-na-laje.png" alt="Atividade na Laje" loading="lazy"></div>
         <h4>Atividade na Laje</h4>
         <span class="lineup__time">Horário a confirmar</span>
       </article>
@@ -500,12 +494,6 @@
   </div>
 
   <div class="site-footer__bottom">
-    <div class="dual-flag-pill dual-flag-pill--footer">
-      <span class="flag flag--br" aria-hidden="true"></span>
-      <span class="dual-flag-pill__x">×</span>
-      <span class="flag flag--fr" aria-hidden="true"></span>
-      <span>Brasil × França</span>
-    </div>
     <p>© 2026 Social do Imigrante. Todos os direitos reservados.</p>
   </div>
 </footer>

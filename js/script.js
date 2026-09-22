@@ -184,4 +184,34 @@
     });
   }
 
+  /* -----------------------------------------------------------------------
+     HERO VIDEO — autoplay reforçado
+     Navegadores in-app (WhatsApp, Instagram) e o Safari no iOS às vezes
+     bloqueiam o autoplay mesmo com muted+playsinline. Forçamos play() via
+     JS assim que possível e, se falhar, tentamos de novo no primeiro toque.
+     --------------------------------------------------------------------- */
+  var heroVideo = document.querySelector('.hero__video');
+  if (heroVideo) {
+    heroVideo.muted = true;
+    heroVideo.defaultMuted = true;
+
+    var tryPlay = function () {
+      var p = heroVideo.play();
+      if (p && typeof p.catch === 'function') p.catch(function () { /* aguarda gesto do usuário */ });
+    };
+
+    tryPlay();
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) tryPlay();
+    });
+
+    var retryOnGesture = function () {
+      tryPlay();
+      document.removeEventListener('touchstart', retryOnGesture);
+      document.removeEventListener('click', retryOnGesture);
+    };
+    document.addEventListener('touchstart', retryOnGesture, { passive: true, once: true });
+    document.addEventListener('click', retryOnGesture, { once: true });
+  }
+
 })();

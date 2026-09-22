@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Social do Imigrante — 3ª Edição | Sáb, 03 de Outubro, Sarcelles</title>
+<meta name="description" content="Social do Imigrante — a festa anual da comunidade brasileira em Paris. 3ª edição, sábado 03 de outubro, em Sarcelles. Comida brasileira, música ao vivo, expositores e muita saudade de casa.">
+<meta name="theme-color" content="#0B0B0B">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Social do Imigrante — 3ª Edição">
+<meta property="og:description" content="A festa da comunidade brasileira em Paris. Sáb, 03 de outubro, em Sarcelles.">
+<!-- TODO(cliente): substituir por foto real 1200x630 quando disponível -->
+<meta property="og:image" content="assets/img/og-image.svg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="topo">
+  <div class="site-header__inner">
+    <a class="brand" href="#topo" aria-label="Social do Imigrante — início">
+      <img class="monogram" src="assets/logos/logo-social-pura.png" alt="Social do Imigrante" loading="eager">
+      <span class="brand__name">Social do<br>Imigrante</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Navegação principal">
+      <a href="#patrocinadores">Patrocinadores</a>
+      <a href="#atracoes">Atrações</a>
+      <a href="#idealizador">Idealizador</a>
+      <a href="#programacao">Programação</a>
+      <a href="#local">Local</a>
+      <a href="#edicoes">Edições Anteriores</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-desktop__sponsor" href="#patrocinadores">Seja Patrocinador</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line x1="4" y1="7" x2="20" y2="7"></line>
+        <line x1="4" y1="12" x2="20" y2="12"></line>
+        <line x1="4" y1="17" x2="20" y2="17"></line>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <nav aria-label="Navegação móvel">
+      <a href="#topo">Início</a>
+      <a href="#patrocinadores">Patrocinadores</a>
+      <a href="#atracoes">Atrações</a>
+      <a href="#idealizador">Idealizador</a>
+      <a href="#programacao">Programação</a>
+      <a href="#local">Local</a>
+      <a href="#edicoes">Edições Anteriores</a>
+      <a href="#faq">FAQ</a>
+      <a href="#rodape">Contato</a>
+      <a class="mobile-menu__sponsor" href="#patrocinadores">Seja Patrocinador</a>
+    </nav>
+    <a class="mobile-menu__ig" href="https://www.instagram.com/social_do_imigrante/" target="_blank" rel="noopener noreferrer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+      @social_do_imigrante
+    </a>
+  </div>
+</header>
+
+<!-- ============ FAIXA DE SORTEIO (abaixo da barra fixa do header) ============ -->
+<div class="giveaway-bar" role="region" aria-label="Sorteio iPhone 18 Pro">
+  <div class="giveaway-bar__track" aria-hidden="false">
+    <div class="giveaway-marquee">
+      <div class="giveaway-marquee__set">
+        <span class="giveaway-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+          Sorteio no dia do evento: iPhone 18 Pro grátis, só para quem estiver presente
+        </span>
+        <span class="giveaway-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+          Sorteio no dia do evento: iPhone 18 Pro grátis, só para quem estiver presente
+        </span>
+      </div>
+      <div class="giveaway-marquee__set" aria-hidden="true">
+        <span class="giveaway-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+          Sorteio no dia do evento: iPhone 18 Pro grátis, só para quem estiver presente
+        </span>
+        <span class="giveaway-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+          Sorteio no dia do evento: iPhone 18 Pro grátis, só para quem estiver presente
+        </span>
+      </div>
+    </div>
+  </div>
+  <a class="giveaway-bar__rules" href="https://www.instagram.com/p/Ddj_dBtjI33/" target="_blank" rel="noopener noreferrer">Ver Regras</a>
+</div>
+
+<main id="conteudo">
+
+  <!-- ============ HERO (VÍDEO) ============ -->
+  <section class="hero" aria-label="Abertura">
+    <div class="hero__media">
+      <video class="hero__video" autoplay loop muted playsinline preload="auto" poster="assets/img/hero-poster.svg" aria-hidden="true">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero__scrim"></div>
+      <div class="hero__fade"></div>
+    </div>
+
+    <div class="hero__content">
+      <img class="hero__logo" src="assets/logos/logo-hero.png" alt="Social do Imigrante — 3ª Edição" loading="eager">
+
+      <div class="hero__infobar">
+        <ul class="hero__facts">
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <span>Sáb, 03 de Outubro</span>
+          </li>
+          <li class="hero__facts-dot" aria-hidden="true">•</li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Sarcelles, França</span>
+          </li>
+        </ul>
+
+        <div class="countdown" id="countdown" aria-label="Contagem regressiva para o evento">
+        <div class="countdown__unit countdown__unit--highlight">
+          <span class="display" id="cd-days">–</span>
+          <small>Dias</small>
+        </div>
+        <div class="countdown__unit">
+          <span class="display" id="cd-hours">–</span>
+          <small>Horas</small>
+        </div>
+        <div class="countdown__unit">
+          <span class="display" id="cd-min">–</span>
+          <small>Min</small>
+        </div>
+        <div class="countdown__unit">
+          <span class="display" id="cd-sec">–</span>
+          <small>Seg</small>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PATROCINADORES ============ -->
+  <section class="sponsors" id="patrocinadores" aria-label="Patrocinadores">
+    <div class="section-head section-head--paper">
+      <span class="eyebrow eyebrow--dark">Quem apoia o Social</span>
+      <h2 class="display">Patrocinadores</h2>
+      <p>Marcas e empreendedores brasileiros que ajudam a fazer a festa acontecer.</p>
+    </div>
+
+    <div class="sponsor-marquee" role="list" aria-label="Logos dos patrocinadores">
+      <div class="sponsor-marquee__track">
+        <div class="sponsor-marquee__set">
+          <div class="sponsor-tile" role="listitem"><span>LOGO PATROCINADOR 1</span><small>placeholder</small></div>
+          <div class="sponsor-tile" role="listitem"><span>LOGO PATROCINADOR 2</span><small>placeholder</small></div>
+          <div class="sponsor-tile" role="listitem"><span>LOGO PATROCINADOR 3</span><small>placeholder</small></div>
+          <div class="sponsor-tile" role="listitem"><span>LOGO PATROCINADOR 4</span><small>placeholder</small></div>
+          <div class="sponsor-tile" role="listitem"><span>LOGO PATROCINADOR 5</span><small>placeholder</small></div>
+          <div class="sponsor-tile" role="listitem"><span>LOGO PATROCINADOR 6</span><small>placeholder</small></div>
+        </div>
+        <div class="sponsor-marquee__set" aria-hidden="true">
+          <div class="sponsor-tile"><span>LOGO PATROCINADOR 1</span><small>placeholder</small></div>
+          <div class="sponsor-tile"><span>LOGO PATROCINADOR 2</span><small>placeholder</small></div>
+          <div class="sponsor-tile"><span>LOGO PATROCINADOR 3</span><small>placeholder</small></div>
+          <div class="sponsor-tile"><span>LOGO PATROCINADOR 4</span><small>placeholder</small></div>
+          <div class="sponsor-tile"><span>LOGO PATROCINADOR 5</span><small>placeholder</small></div>
+          <div class="sponsor-tile"><span>LOGO PATROCINADOR 6</span><small>placeholder</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sponsors__cta">
+      <p>Quer sua marca na próxima edição, na frente de toda a comunidade brasileira em Paris?</p>
+      <a class="btn btn--dark" href="#rodape">Seja Patrocinador</a>
+    </div>
+  </section>
+
+  <!-- divisor: crescimento das edições -->
+  <div class="growth-strip">
+    <span class="growth-strip__item"><strong>1ª Edição</strong> mil pessoas</span>
+    <span class="growth-strip__dot" aria-hidden="true">•</span>
+    <span class="growth-strip__item"><strong>2ª Edição</strong> 2.300 pessoas</span>
+    <span class="growth-strip__dot" aria-hidden="true">•</span>
+    <span class="growth-strip__item"><strong>3ª Edição?</strong> 👀</span>
+  </div>
+
+  <!-- ============ ATRAÇÕES ============ -->
+  <section class="attractions" id="atracoes" aria-label="Atrações">
+    <div class="section-head">
+      <span class="eyebrow">O que rola no dia</span>
+      <h2 class="display">Atrações</h2>
+      <p>Um dia inteiro para celebrar a comunidade brasileira na França.</p>
+    </div>
+
+    <div class="attraction-grid">
+      <article class="attraction-card">
+        <div class="attraction-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2s2-.9 2-2V2M5 11v11M19 2c-1.5 0-3 2-3 5v4c0 1 1 2 2 2h1v9"></path></svg>
+        </div>
+        <h3>Comida Brasileira</h3>
+        <p>Coxinha, caipirinha, churrasco e muito mais de raiz — o cheirinho de casa em Paris.</p>
+      </article>
+
+      <article class="attraction-card">
+        <div class="attraction-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l1 13H5L6 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+        </div>
+        <h3>Expositores Locais</h3>
+        <p>Empreendedores brasileiros da comunidade mostrando o que fazem de melhor.</p>
+      </article>
+
+      <article class="attraction-card">
+        <div class="attraction-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="10" rx="2"></rect><circle cx="7.5" cy="17" r="1.5"></circle><circle cx="16.5" cy="17" r="1.5"></circle><path d="M6 7l1.5-4h9L18 7"></path></svg>
+        </div>
+        <h3>Som Automotivo</h3>
+        <p>Carros equipados e grave pesado pra sacudir o bairro inteiro.</p>
+      </article>
+
+      <article class="attraction-card">
+        <div class="attraction-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9 12 2"></polygon></svg>
+        </div>
+        <h3>Beleza &amp; Estética</h3>
+        <p>Trancistas, barbeiros e profissionais da beleza da comunidade.</p>
+      </article>
+
+      <article class="attraction-card">
+        <div class="attraction-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v10M7 12h10"></path></svg>
+        </div>
+        <h3>Brinquedos Infláveis</h3>
+        <p>Diversão garantida pra criançada o dia todo, com segurança.</p>
+      </article>
+
+      <article class="attraction-card">
+        <div class="attraction-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+        </div>
+        <h3>Shows ao Vivo</h3>
+        <p>Samba, pagode e muito ritmo brasileiro pra ninguém ficar parado.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- bandeirinha divider -->
+  <div class="bunting-divider" aria-hidden="true">
+    <div class="bunting-divider__row">
+      <span class="bunting bunting--green"></span><span class="bunting bunting--yellow"></span><span class="bunting bunting--blue"></span><span class="bunting bunting--bluefr"></span><span class="bunting bunting--white"></span><span class="bunting bunting--redfr"></span>
+      <span class="bunting bunting--green"></span><span class="bunting bunting--yellow"></span><span class="bunting bunting--blue"></span><span class="bunting bunting--bluefr"></span><span class="bunting bunting--white"></span><span class="bunting bunting--redfr"></span>
+      <span class="bunting bunting--green"></span><span class="bunting bunting--yellow"></span><span class="bunting bunting--blue"></span><span class="bunting bunting--bluefr"></span><span class="bunting bunting--white"></span><span class="bunting bunting--redfr"></span>
+    </div>
+  </div>
+
+  <!-- ============ IDEALIZADOR ============ -->
+  <section class="founder" id="idealizador" aria-label="Idealizador do evento">
+    <div class="section-head">
+      <span class="eyebrow">Quem fez esse sonho virar festa</span>
+      <h2 class="display">O Idealizador</h2>
+    </div>
+
+    <div class="founder__card">
+      <img class="founder__photo" src="assets/logos/logo-com-giovani.png" alt="Giovani, idealizador do Social do Imigrante" loading="lazy">
+      <div class="founder__info">
+        <h3 class="display">Giovani</h3>
+        <span class="tag tag--gradient">@imigrantenafranca</span>
+        <p>O criador do Social do Imigrante — brasileiro que também vive a saudade de casa em Paris e decidiu criar um espaço pra comunidade se encontrar, comer bem e lembrar do Brasil.</p>
+        <a class="founder__ig" href="https://www.instagram.com/imigrantenafranca/" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle></svg>
+          Seguir no Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAMAÇÃO / LINE-UP ============ -->
+  <section class="lineup" id="programacao" aria-label="Programação">
+    <div class="section-head">
+      <span class="eyebrow">Quem vem sambar com a gente</span>
+      <h2 class="display">Programação</h2>
+    </div>
+
+    <div class="lineup__featured">
+      <div class="lineup__featured-avatar">
+        <span class="display">PS</span>
+      </div>
+      <div class="lineup__featured-info">
+        <span class="tag tag--gradient">Atração Principal</span>
+        <h3 class="display">Paris Samba Group</h3>
+        <p>A bateria e o samba de raiz que abrem a roda de dança do Social — o grupo que traz a energia do carnaval pra Sarcelles.</p>
+        <span class="lineup__time">Horário a confirmar</span>
+      </div>
+    </div>
+
+    <div class="lineup__grid">
+      <article class="lineup-card">
+        <div class="lineup-card__avatar"><span class="display">EF</span></div>
+        <h4>Eurotrip Family</h4>
+        <span class="lineup__time">Horário a confirmar</span>
+      </article>
+      <article class="lineup-card">
+        <div class="lineup-card__avatar"><span class="display">AL</span></div>
+        <h4>Atividade na Laje</h4>
+        <span class="lineup__time">Horário a confirmar</span>
+      </article>
+    </div>
+
+    <p class="lineup__note">Programação completa (horários por atração) será divulgada em breve no <a href="https://www.instagram.com/social_do_imigrante/" target="_blank" rel="noopener noreferrer">Instagram do evento</a>.</p>
+  </section>
+
+  <!-- ============ LOCAL ============ -->
+  <section class="location" id="local" aria-label="Local e como chegar">
+    <div class="section-head">
+      <span class="eyebrow">Anota aí</span>
+      <h2 class="display">Local</h2>
+    </div>
+
+    <div class="location-card">
+      <div class="location-card__info">
+        <div class="location-card__row">
+          <span class="location-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </span>
+          <div>
+            <strong>17 Rue de l'Escouvrier</strong>
+            <span>95200 Sarcelles, França</span>
+          </div>
+        </div>
+
+        <div class="location-card__row">
+          <span class="location-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          </span>
+          <div>
+            <strong>Sábado, 03 de Outubro</strong>
+            <span>Horário a confirmar</span>
+          </div>
+        </div>
+
+        <div class="location-card__ctas">
+          <a class="btn btn--primary" href="https://www.google.com/maps/dir/?api=1&destination=17+Rue+de+l%27Escouvrier,+95200+Sarcelles,+France" target="_blank" rel="noopener noreferrer">Como Chegar</a>
+          <a class="btn btn--outline" href="https://wa.me/?text=Bora%20pro%20Social%20do%20Imigrante%20em%2003%2F10%2C%20em%20Sarcelles!%20Mais%20info%3A%20https%3A%2F%2Fwww.instagram.com%2Fsocial_do_imigrante%2F" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            Compartilhar
+          </a>
+        </div>
+      </div>
+
+      <div class="location-card__map">
+        <iframe
+          title="Mapa — 17 Rue de l'Escouvrier, 95200 Sarcelles"
+          src="https://maps.google.com/maps?q=17%20Rue%20de%20l%27Escouvrier%2C%2095200%20Sarcelles%2C%20France&z=15&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDIÇÕES ANTERIORES ============ -->
+  <section class="gallery" id="edicoes" aria-label="Edições anteriores">
+    <div class="section-head">
+      <span class="eyebrow">Prova de que a festa é boa</span>
+      <h2 class="display">Edições Anteriores</h2>
+      <p>Um gostinho do que já rolou — fotos das próximas edições em breve.</p>
+    </div>
+
+    <div class="gallery__grid">
+      <figure class="gallery__item">
+        <img src="assets/flyers/flyer-3a-edicao.webp" alt="Flyer oficial da 3ª edição do Social do Imigrante" loading="lazy" width="600" height="750">
+        <figcaption>Flyer — 3ª Edição</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="assets/flyers/flyer-2a-edicao.webp" alt="Flyer oficial da 2ª edição do Social do Imigrante" loading="lazy" width="600" height="750">
+        <figcaption>Flyer — 2ª Edição</figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--placeholder">
+        <span>Foto em breve</span>
+      </figure>
+      <figure class="gallery__item gallery__item--placeholder">
+        <span>Foto em breve</span>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq" aria-label="Perguntas frequentes">
+    <div class="section-head">
+      <span class="eyebrow">Ainda com dúvida?</span>
+      <h2 class="display">Perguntas Frequentes</h2>
+    </div>
+
+    <div class="accordion">
+      <details class="accordion__item" open>
+        <summary>
+          <span>O evento é para toda a família?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion__panel">
+          <p>Sim! Temos brinquedos infláveis e programação pensada para crianças o dia todo. Toda a família é bem-vinda.</p>
+        </div>
+      </details>
+
+      <details class="accordion__item">
+        <summary>
+          <span>Como faço para ser expositor ou patrocinador?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion__panel">
+          <p>Manda uma mensagem pra gente no <a href="https://www.instagram.com/social_do_imigrante/" target="_blank" rel="noopener noreferrer">Instagram</a> — contamos os próximos passos por lá.</p>
+        </div>
+      </details>
+
+      <details class="accordion__item">
+        <summary>
+          <span>Como funciona o sorteio do iPhone 18 Pro?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion__panel">
+          <p>O regulamento completo está na <a href="https://www.instagram.com/p/Ddj_dBtjI33/" target="_blank" rel="noopener noreferrer">publicação oficial no Instagram</a> — dá uma olhada lá pra saber como participar.</p>
+        </div>
+      </details>
+
+      <details class="accordion__item">
+        <summary>
+          <span>Como chego até Sarcelles?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion__panel">
+          <p>O endereço é 17 Rue de l'Escouvrier, 95200 Sarcelles. Use o botão "Como Chegar" na seção Local para abrir a rota no Google Maps a partir de onde você estiver.</p>
+        </div>
+      </details>
+
+      <details class="accordion__item">
+        <summary>
+          <span>Vai ter estacionamento?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion__panel">
+          <p>Informação em confirmação — atualizaremos esta seção assim que tivermos os detalhes.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="site-footer" id="rodape">
+  <div class="site-footer__flag-stripe" aria-hidden="true"></div>
+
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <img class="monogram monogram--lg" src="assets/logos/logo-social-pura.png" alt="Social do Imigrante" loading="lazy">
+      <div>
+        <strong class="display">Social do Imigrante</strong>
+        <p>Feito com saudade de casa, em Paris.</p>
+      </div>
+    </div>
+
+    <div class="site-footer__cols">
+      <div class="site-footer__col">
+        <h5>Evento</h5>
+        <a href="#atracoes">Atrações</a>
+        <a href="#idealizador">Idealizador</a>
+        <a href="#programacao">Programação</a>
+        <a href="#local">Local</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="site-footer__col">
+        <h5>Contato</h5>
+        <a href="https://www.instagram.com/social_do_imigrante/" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle></svg>
+          @social_do_imigrante
+        </a>
+        <a href="https://www.instagram.com/imigrantenafranca/" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle></svg>
+          @imigrantenafranca
+        </a>
+        <a href="mailto:contato@socialdoimigrante.fr">Seja Patrocinador</a>
+      </div>
+      <div class="site-footer__col">
+        <h5>Legal</h5>
+        <a href="#" id="openCookiePrefs">Preferências de Cookies</a>
+        <a href="assets/legal/politica-de-privacidade.html">Política de Privacidade &amp; Cookies</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <div class="dual-flag-pill dual-flag-pill--footer">
+      <span class="flag flag--br" aria-hidden="true"></span>
+      <span class="dual-flag-pill__x">×</span>
+      <span class="flag flag--fr" aria-hidden="true"></span>
+      <span>Brasil × França</span>
+    </div>
+    <p>© 2026 Social do Imigrante. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- ============ COOKIE CONSENT (RGPD/GDPR) ============ -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Preferências de cookies" hidden>
+  <p>
+    Usamos cookies essenciais para o site funcionar e, com sua permissão, cookies de estatística/divulgação (ex: Meta/Instagram Pixel, Google Analytics) para entender melhor o alcance do evento. Você pode aceitar ou recusar os não essenciais a qualquer momento.
+    <a href="assets/legal/politica-de-privacidade.html">Saiba mais</a>.
+  </p>
+  <div class="cookie-banner__actions">
+    <button type="button" class="btn btn--ghost" id="cookieDecline">Recusar</button>
+    <button type="button" class="btn btn--primary" id="cookieAccept">Aceitar</button>
+  </div>
+</div>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

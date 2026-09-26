@@ -573,7 +573,7 @@ h1, h2, h3, h4, h5, p { margin: 0; }
 .exhibitor-marquee__track {
   display: flex;
   width: max-content;
-  animation: si-marquee 80s linear infinite;
+  animation: si-marquee 35s linear infinite;
 }
 .exhibitor-marquee:hover .exhibitor-marquee__track { animation-play-state: paused; }
 .exhibitor-marquee__set {

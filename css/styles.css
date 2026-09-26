@@ -196,6 +196,21 @@ h1, h2, h3, h4, h5, p { margin: 0; }
 
 .nav-desktop { display: none; }
 
+.header-actions { display: flex; align-items: center; gap: 6px; }
+.btn-ticket {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border-radius: var(--radius-pill);
+  background: var(--grad-gold-green);
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.btn-ticket:hover { filter: brightness(1.08); color: var(--ink); }
+
 .menu-toggle {
   width: 44px;
   height: 44px;

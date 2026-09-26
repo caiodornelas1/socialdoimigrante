@@ -556,67 +556,63 @@ h1, h2, h3, h4, h5, p { margin: 0; }
 }
 
 /* =========================================================================
-   PATROCINADORES
+   EXPOSITORES
    ========================================================================= */
-.sponsors {
+.exhibitors {
   background: var(--paper);
   padding: 56px 0 48px;
 }
-.sponsors .section-head { margin-bottom: 32px; }
+.exhibitors .section-head { margin-bottom: 32px; }
 
-.sponsor-marquee {
+.exhibitor-marquee {
   overflow: hidden;
-  padding: 24px 0;
+  padding: 28px 0 24px;
   border-top: 1px solid rgba(11,11,11,0.08);
   border-bottom: 1px solid rgba(11,11,11,0.08);
 }
-.sponsor-marquee__track {
+.exhibitor-marquee__track {
   display: flex;
   width: max-content;
-  animation: si-marquee 20s linear infinite;
+  animation: si-marquee 80s linear infinite;
 }
-.sponsor-marquee__set {
+.exhibitor-marquee:hover .exhibitor-marquee__track { animation-play-state: paused; }
+.exhibitor-marquee__set {
   display: flex;
-  align-items: center;
-  gap: 40px;
-  padding-right: 40px;
+  align-items: flex-start;
+  gap: 28px;
+  padding-right: 28px;
 }
-.sponsor-tile {
+.exhibitor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-  padding: 14px 22px;
-  border: 1.5px dashed rgba(11,11,11,0.2);
-  border-radius: var(--radius-sm);
-  min-width: 200px;
+  gap: 10px;
+  width: 168px;
+  color: var(--text-on-paper);
 }
-.sponsor-tile span {
-  font-weight: 800;
-  font-size: 13px;
-  color: #8C8577;
-  letter-spacing: 0.02em;
+.exhibitor:hover { color: var(--green); }
+.exhibitor__avatar {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(11,11,11,0.10), 0 6px 16px rgba(11,11,11,0.12);
+}
+.exhibitor__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.exhibitor--pad .exhibitor__avatar img { transform: scale(0.84); }
+.exhibitor__handle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
   white-space: nowrap;
-}
-.sponsor-tile small {
-  font-size: 9px;
-  color: #B0A996;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.sponsors__cta {
-  max-width: var(--container);
-  margin: 32px auto 0;
-  padding: 0 var(--gutter);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.sponsors__cta p {
-  font-size: 15px;
-  color: #55503F;
-  max-width: 460px;
 }
 
 /* =========================================================================
